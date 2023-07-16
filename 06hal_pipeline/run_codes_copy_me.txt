@@ -1,0 +1,10 @@
+python3 main.py -dataset_name 'hmdb51' -option 'opt'\
+                -exp_num 0 -split_num 1\
+                -layers 15 -batchN 32\
+                -num_class 51 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/hmdb_train_split_01.csv' -te_split '/flush3/wan305/tr-te-split/hmdb_test_split_01.csv'\
+                -video_hdf5 '/flush3/wan305/hmdb51_rgb_u_v.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+                
