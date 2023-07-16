@@ -1,0 +1,147 @@
+python3 main_mpii.py -dataset_name 'mpii' -option 'rgb'\
+                -exp_num 0 -split_num 1\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp1.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp1.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'rgb'\
+                -exp_num 0 -split_num 2\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp2.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp2.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'rgb'\
+                -exp_num 0 -split_num 3\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp3.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp3.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'rgb'\
+                -exp_num 0 -split_num 4\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp4.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp4.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'rgb'\
+                -exp_num 0 -split_num 5\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp5.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp5.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'rgb'\
+                -exp_num 0 -split_num 6\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp6.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp6.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'rgb'\
+                -exp_num 0 -split_num 7\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp7.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp7.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+
+--------------------------------------------------------------------------------------------
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'opt'\
+                -exp_num 0 -split_num 1\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp1.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp1.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'opt'\
+                -exp_num 0 -split_num 2\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp2.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp2.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'opt'\
+                -exp_num 0 -split_num 3\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp3.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp3.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'opt'\
+                -exp_num 0 -split_num 4\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp4.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp4.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'opt'\
+                -exp_num 0 -split_num 5\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp5.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp5.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'opt'\
+                -exp_num 0 -split_num 6\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp6.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp6.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+python3 main_mpii.py -dataset_name 'mpii' -option 'opt'\
+                -exp_num 0 -split_num 7\
+                -layers 19 -batchN 32\
+                -num_class 64 -desired_frame 64\
+                -tr_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_tr_sp7.csv' -te_split '/flush3/wan305/tr-te-split/mpii_info_list_with_subject_for_split_te_sp7.csv'\
+                -video_hdf5 '/flush3/wan305/mpii_rgb_u_v_bb.hdf5'\
+                -pretrained_rgb '/flush3/wan305/pretrained_I3D/rgb_imagenet.pt'\
+                -pretrained_opt '/flush3/wan305/pretrained_I3D/flow_imagenet.pt'\
+                -feature_hdf5 '.hdf5' -lr_rate 1e-3
+
+
+
+
+
